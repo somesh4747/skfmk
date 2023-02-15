@@ -1,0 +1,78 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+
+    /* color: white; */
+    height: 100vw;
+    background-repeat: no-repeat;
+    /* min-width: 100%; */
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-img{
+    position: relative;
+    left: -213px;
+    
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    color: black;
+}
+
+.hero{
+
+    height: 90vh; 
+    background-image: url('images/kid_tablet2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+
+}
+.hero-item{
+    max-width: 60vw;
+}
+@media (max-width:500px) {
+    
+    .hero-item{
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+
+.features-master{
+    padding-top: 30px;
+    color: white;
+    /* background: linear-gradient(320deg, rgba(18,13,222,0.8939950980392157) 0%, rgba(9,11,44,1) 100%); */
+    background: radial-gradient(circle, rgba(0,3,142,0.8939950980392157) 0%, rgba(9,11,44,1) 100%);
+    padding-bottom: 50px;
+
+}
+.features i{
+    /* width: 2rem; */
+    transform: scale(1.8);
+    margin: 18px;
+
+}
+
+
+.why-part li{
+    font-size: 1.3rem;
+    
+}
+
+.why-part li i{
+    margin-right: 10px;
+    
+}
